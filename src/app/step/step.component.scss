@@ -1,0 +1,18 @@
+.step-card {
+    min-width: 600px;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.date {
+    align-self: right;
+}
+
+.step-type {
+    align-self: left;
+}

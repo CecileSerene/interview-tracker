@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    max-width: 100vh;
+    flex-grow: 1;
+}
+
+.left-containter {
+    flex-grow: 1;
+    margin-right: 10px;
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.info-card {
+    min-width: 200px;
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.role {
+    text-align: center;
+}

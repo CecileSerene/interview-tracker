@@ -1,0 +1,8 @@
+<div *ngIf="!stepId"></div>
+<div class=" card step-card" *ngIf="stepId">
+    <div class="card-top">
+        <p class="step-type">{{type}}</p>
+        <p class="date">{{date}}</p>
+    </div>
+    <p>{{notes}}</p>
+</div>

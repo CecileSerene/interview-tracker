@@ -1,0 +1,12 @@
+<div class="container" *ngIf="loaded">
+    <div class="left-containter">
+        <app-step stepId={{step.id}} *ngFor="let step of steps"></app-step>
+    </div>
+    <div class="card info-card">
+        <p class="title">{{companyName}}</p>
+        <p class="role">{{role}}</p>
+        <p>{{contact}}</p>
+        <p>{{status}}</p>
+        <a href={{url}}>{{url}}</a>
+    </div>
+</div>
